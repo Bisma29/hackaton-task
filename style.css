@@ -1,0 +1,47 @@
+/* styles.css */
+
+body, html {
+  height: 100%;
+  margin: 0;
+  background-image: url(./images/mountains-morning-snow-rock-mountain-landscape.svg);
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+
+
+.main-content {
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 15px;
+}
+
+.btn-custom-play {
+  background-color: #ff3c71;
+  color: white;
+  border: none;
+}
+
+.btn-custom-play:hover {
+  background-color: #e23263;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .main-content h1 {
+    font-size: 1.75rem;
+  }
+  .main-content p {
+    font-size: 1rem;
+  }
+}
+
+body { overflow: hidden; }
+
